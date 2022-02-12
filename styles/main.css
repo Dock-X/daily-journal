@@ -1,0 +1,4 @@
+.inputFieldset {
+    display: flex;
+    flex-direction: column;
+}

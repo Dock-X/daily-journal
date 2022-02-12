@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,28 @@
     <link rel="stylesheet" href="./styles/main.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>This is my daily progamming journal</header>
-    <main is="container">
+    <main id="container">
         <!-- <h1 class="bigOleText">BIG OLE TEXT</h1> -->
         <h2>Daily Journal</h2>
-        <fieldset>
-            <label for="entryDate">Date</label>
+        <fieldset class="inputFieldset">
+            <label for="entryDate">Date:</label>
             <input type="date" name="entryDate" id="entryDateInput" class="entryForm_date">
         </fieldset>
+        <fieldset class="inputFieldset">
+            <label for="conceptsCovered">Concepts Covered:</label>
+            <input type="text" name="conceptsCovered" id="conceptsCoveredInput" class="entryForm_conceptsCovered">
+        </fieldset>
+        <fieldset class="inputFieldset">
+            <label for="journalEntry">Journal Entry:</label>
+            <input type="text" name="journalEntry" id="journalEntryInput" class="entryForm_journalEntry">
+        </fieldset>
+
 
     </main>
     <footer>Looks like a foot! Well it tasted like a foot!</footer>
 </body>
+
 </html>
